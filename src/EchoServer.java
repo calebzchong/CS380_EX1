@@ -38,7 +38,7 @@ public final class EchoServer {
 						}
 						socket.close();
 					} catch (Exception e) {
-						// TODO Auto-generated catch block
+						System.out.println("Something happened lol.");
 						e.printStackTrace();
 					}
 				};
