@@ -38,7 +38,6 @@ public final class EchoServer {
 						}
 						socket.close();
 					} catch (Exception e) {
-						System.out.println("Something happened lol.");
 						e.printStackTrace();
 					}
 				};
